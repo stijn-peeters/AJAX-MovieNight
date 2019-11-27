@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Movie Night | Scheduling</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!--Main Navigation-->
+    <header>
+      <!-- Navbar -->
+      <nav
+        class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar"
+      >
+        <div class="container">
+          <!-- Brand -->
+          <a class="navbar-brand waves-effect" href="./index.html">
+            <strong class=" grey-text">Movie Night</strong>
+          </a>
+
+          <!-- Collapse -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Left -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item ">
+                <a class="nav-link waves-effect" href="./index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link waves-effect" href="./movies.html">Movies</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link waves-effect" href="./schedule.html"
+                  >Schedule
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+            </ul>
+
+            <!-- Right -->
+            <ul class="navbar-nav nav-flex-icons">
+              <li class="nav-item">
+                <a
+                  href="https://www.facebook.com/Kinepolis"
+                  class="nav-link waves-effect"
+                  target="_blank"
+                >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://twitter.com/kinepolis?lang=en"
+                  class="nav-link waves-effect"
+                  target="_blank"
+                >
+                  <i class="fab fa-twitter"></i>Kinepolis
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://github.com/stijn-peeters/AJAX-MovieNight"
+                  class="nav-link border border-light rounded waves-effect"
+                  target="_blank"
+                >
+                  <i class="fab fa-github mr-2"></i>This project
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+    </header>
+    <!--Main Navigation-->
+    <!--Main layout-->
+    <main class="mt-5 pt-5">
+      <div class="container">
+        <!--Section: Post-->
+        <section class="mt-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-12 mb-6">
+              <!--Featured Image-->
+              <div class="card mb-4 wow fadeIn">
+                <img
+                  src="https://i.imgur.com/V9MNZvo.jpg"
+                  class="img-fluid test"
+                  alt="movie background"
+                />
+              </div>
+              <!--/.Featured Image-->
+              <!--Reply-->
+              <div class="card mb-3 wow fadeIn">
+                <div class="card-header font-weight-bold">
+                  Send a Ryver message
+                </div>
+                <div class="card-body">
+                  <!-- Default form reply -->
+                  <form>
+                    <!-- Name -->
+                    <label for="replyFormName">Your name</label>
+                    <input
+                      id="replyFormName"
+                      class="form-control nameField"
+                      value="here"
+                    />
+                    <br />
+                    <!-- Dropdown movielist -->
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1"
+                        >The movie you want to see</label
+                      >
+                      <select
+                        class="form-control testselect"
+                        id="exampleFormControlSelect1"
+                      >
+                        <option class="title">select a movie here</option>
+                        <option class="title0"></option>
+                        <option class="title1"></option>
+                        <option class="title2"></option>
+                        <option class="title3"></option>
+                        <option class="title4"></option>
+                        <option class="title5"></option>
+                        <option class="title6"></option>
+                        <option class="title7"></option>
+                        <option class="title8"></option>
+                        <option class="title9"></option>
+                        <option class="title10"></option>
+                        <option class="title11"></option>
+                      </select>
+                    </div>
+                    <!-- Comment -->
+                    <div class="form-group">
+                      <label for="replyFormComment">Your comment</label>
+                      <textarea
+                        class="form-control messageField"
+                        id="replyFormComment"
+                        rows="3"
+                      >
+I wanna see it!</textarea
+                      >
+                    </div>
+                  </form>
+
+                  <div class="text-center mt-4">
+                    <button class="btn btn-info  postRyver">Post</button>
+                  </div>
+                  <!-- Default form reply -->
+                </div>
+              </div>
+              <!--/.Reply-->
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!--Section: Post-->
+      </div>
+    </main>
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer
+      class="page-footer text-center font-small mdb-color darken-2 mt-4  fadeIn"
+    >
+      <!--Call to action-->
+      <div class="pt-4">
+        <a
+          class="btn btn-outline-white"
+          href="http://www.themoviedb.org/"
+          target="_blank"
+          role="button"
+        >
+          movie api
+          <i class="fas fa-download ml-2"></i>
+        </a>
+        <a
+          class="btn btn-outline-white"
+          href="https://www.becode.ryver.com/"
+          target="_blank"
+          role="button"
+        >
+          ryver api
+          <i class="fas fa-download ml-2"></i>
+        </a>
+      </div>
+      <!--/.Call to action-->
+
+      <hr class="my-4" />
+
+      <!-- Social icons -->
+      <div class="pb-4">
+        <a href="https://www.facebook.com/Kinepolis" target="_blank">
+          <i class="fab fa-facebook-f mr-3"></i>
+        </a>
+        <a href="https://twitter.com/kinepolis?lang=en" target="_blank">
+          <i class="fab fa-twitter mr-3"></i>
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UC3up88jyCBqPStM7OkCKrjA"
+          target="_blank"
+        >
+          <i class="fab fa-youtube mr-3"></i>
+        </a>
+        <a href="https://github.com/stijn-peeters/" target="_blank">
+          <i class="fab fa-github mr-3"></i>
+        </a>
+      </div>
+      <!-- Social icons -->
+
+      <!--Copyright-->
+      <div class="footer-copyright py-3">
+        © 2019 Copyright:
+        <a href="https://github.com/stijn-peeters" target="_blank">
+          Stijn Peeters
+        </a>
+      </div>
+      <!--/.Copyright-->
+    </footer>
+    <!--/.Footer-->
+
+    <!-- SCRIPTS -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
